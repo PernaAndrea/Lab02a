@@ -20,7 +20,7 @@ public class AlienDictionary {
 	
 	public String translateWord(String alienWord) {
 	
-		if(mappaWord.get(alienWord).getTranslation()!=null) {
+		if(mappaWord.get(alienWord)!=null) {
 			 return mappaWord.get(alienWord).getTranslation();
 		 }else
 		return null;
